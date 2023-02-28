@@ -1,5 +1,5 @@
 {
-    "name": "react-native-swipe-item",
+    "name": "@faisolp/react-native-swipe-item",
     "version": "0.7.0.1",
     "description": "The swipeale item for react-native",
     "main": "dist/index.js",
