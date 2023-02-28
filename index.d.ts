@@ -76,6 +76,7 @@ declare module 'react-native-swipe-item' {
         /**
          * Swipe items mode, default is single
          */
+        children?: ReactNode; // Fix error
         mode?: 'single' | 'multiple';
         /**
          * The trigger for automatically closed swipe item , default is onItemMoved
@@ -83,6 +84,7 @@ declare module 'react-native-swipe-item' {
          * `onButtonShowed` - when the swipe item button is showing, the opened one will be closed.
          */
         closeTrigger?: 'onItemMoved' | 'onButtonShowed';
+       
     }
 
     export class SwipeProvider extends Component<SwipeProviderProps, {}> {}
