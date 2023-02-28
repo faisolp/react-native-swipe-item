@@ -6,6 +6,9 @@ A swipe item for react-native. Support both iOS and Android.
 
 <img src="https://raw.githubusercontent.com/ambisign-gavin/react-native-swipe-item/master/android-demo.gif" width="310">
 
+
+## Fix error 
+SwipeProvider breaks on type checking, all the component becomes red and types are not compatible
 ## Example
 
 See [react-native-swipe-item-demo](https://github.com/ambisign-gavin/react-native-swipe-item-demo).
@@ -14,7 +17,7 @@ See [react-native-swipe-item-demo](https://github.com/ambisign-gavin/react-nativ
 
 ```sh
 
-npm i --save react-native-swipe-item
+npm i --save @faisolp\react-native-swipe-item
 
 ```
 
@@ -25,7 +28,7 @@ npm i --save react-native-swipe-item
 You can use the `SwipeButtonsContainer` to wrap buttons that you want to show when users swipe the item, and pass it to props.
 
 ```javascript
-import { SwipeItem, SwipeButtonsContainer, SwipeProvider } from 'react-native-swipe-item';
+import { SwipeItem, SwipeButtonsContainer, SwipeProvider } from '@faisolp/react-native-swipe-item';
 
 export default function SwipeButtonCustom() {
 
