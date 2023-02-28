@@ -32,7 +32,7 @@
     ],
     "author": "Gavin Wang <kuku8990@gmail.com> (https://github.com/ambisign-gavin)",
     "repository": {
-        "type": "git",
-        "url": "git@github.com:ambisign-gavin/react-native-swipe-item.git"
+        "type": "git",      
+        "url": "git@github.com:faisolp/react-native-swipe-item.git"
     }
 }
