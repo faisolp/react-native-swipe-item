@@ -17,7 +17,7 @@ See [react-native-swipe-item-demo](https://github.com/ambisign-gavin/react-nativ
 
 ```sh
 
-npm i --save @faisolp\react-native-swipe-item
+npm i --save @faisolp/react-native-swipe-item
 
 ```
 
