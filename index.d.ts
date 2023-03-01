@@ -1,4 +1,4 @@
-declare module 'react-native-swipe-item' {
+declare module '@faisolp/react-native-swipe-item' {
     import { ViewStyle, ViewProps } from 'react-native';
     import { Component, ReactChild, ReactNode } from 'react';
 
